@@ -15,7 +15,7 @@
 - Run the app container to run the api by executing `docker run -it -p 5001:5000 flights python3 app.py`
 - The app will be live at `localhost:5001/prediciton`
 
-#### Sample request
+#### Sample Post request
 ```JSON
 {
     "airline": "Vistara",
