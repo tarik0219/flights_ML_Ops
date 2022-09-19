@@ -29,3 +29,5 @@
     "days_left":47
 }
 ```
+### Deploy to Kubernetes
+The deployment will start up 2 pods (A Pod is the atomic unit within the Kubernetes platform.) Within each of these pods a container is created from the flights image built above. In the bottom of the YAML file it defines a service of the LoadBalancer type to divide the incoming traffic between the two pods. This can be horizontally scalled by adding more pods.  
